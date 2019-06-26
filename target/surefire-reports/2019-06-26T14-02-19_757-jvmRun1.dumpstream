@@ -1,0 +1,113 @@
+# Created at 2019-06-26T14:02:43.083
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-06-26T14:02:43.221
+Unexpected IOException with stream: 
+
+
+# Created at 2019-06-26T14:02:43.222
+Unexpected IOException with stream: Failed scenarios:
+
+
+# Created at 2019-06-26T14:02:43.223
+Unexpected IOException with stream: DemoAp.feature:4 
+
+# Created at 2019-06-26T14:02:43.224
+Unexpected IOException with stream: # Scenario: To login the demo app- 102
+
+
+# Created at 2019-06-26T14:02:43.225
+Unexpected IOException with stream: 
+
+
+# Created at 2019-06-26T14:02:43.225
+Unexpected IOException with stream: 1
+
+# Created at 2019-06-26T14:02:43.226
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2019-06-26T14:02:43.227
+Unexpected IOException with stream: 1 failed
+
+# Created at 2019-06-26T14:02:43.228
+Unexpected IOException with stream: )
+
+
+# Created at 2019-06-26T14:02:43.229
+Unexpected IOException with stream: 5
+
+# Created at 2019-06-26T14:02:43.229
+Unexpected IOException with stream:  Steps (
+
+# Created at 2019-06-26T14:02:43.230
+Unexpected IOException with stream: 1 failed
+
+# Created at 2019-06-26T14:02:43.231
+Unexpected IOException with stream: , 
+
+# Created at 2019-06-26T14:02:43.232
+Unexpected IOException with stream: 3 skipped
+
+# Created at 2019-06-26T14:02:43.233
+Unexpected IOException with stream: , 
+
+# Created at 2019-06-26T14:02:43.233
+Unexpected IOException with stream: 1 passed
+
+# Created at 2019-06-26T14:02:43.234
+Unexpected IOException with stream: )
+
+
+# Created at 2019-06-26T14:02:43.235
+Unexpected IOException with stream: 0m
+
+# Created at 2019-06-26T14:02:43.236
+Unexpected IOException with stream: 16.809s
+
+
+# Created at 2019-06-26T14:02:43.236
+Unexpected IOException with stream: 
+
+
+# Created at 2019-06-26T14:02:43.237
+Unexpected IOException with stream: java.lang.Exception
+
+# Created at 2019-06-26T14:02:43.238
+Unexpected IOException with stream: 
+
+
+# Created at 2019-06-26T14:02:43.239
+Unexpected IOException with stream: 	at com.BaseAdactin.Base_Adactin.inputValuestoWebelement(Base_Adactin.java:109)
+
+# Created at 2019-06-26T14:02:43.240
+Unexpected IOException with stream: 
+
+
+# Created at 2019-06-26T14:02:43.240
+Unexpected IOException with stream: 	at com.stepdefinition.Stepdefinition_Demo.user_enter_the_username_in_the_email_feild(Stepdefinition_Demo.java:29)
+
+# Created at 2019-06-26T14:02:43.241
+Unexpected IOException with stream: 
+
+
+# Created at 2019-06-26T14:02:43.242
+Unexpected IOException with stream: 	at ?.When User enter the username in the email feild(DemoAp.feature:6)
+
+# Created at 2019-06-26T14:02:43.244
+Unexpected IOException with stream: 
+
+
+# Created at 2019-06-26T14:02:43.244
+Unexpected IOException with stream: 
+
+
+# Created at 2019-06-26T14:02:43.245
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.RunnerClass.TestRunner,null,null,null
+
+
