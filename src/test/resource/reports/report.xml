@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.159055">
+<testcase classname="User should login the Demo Application" name="To login the demo app- 102" time="15.159055">
+<failure message="org.junit.ComparisonFailure: expected:&lt;Project[]&gt; but was:&lt;Project[ name]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at com.stepdefinition.Stepdefinition_Demo.user_verify_the_project_name_in_the_logo(Stepdefinition_Demo.java:47)&#13;&#10;&#9;at ✽.Then User verify the project name in the logo(DemoAp.feature:9)&#13;&#10;"><![CDATA[Given User launch the demo application......................................passed
+When User enter the username in the email feild.............................passed
+And User enter the password in the password feild...........................passed
+And User click on Sign in button............................................passed
+Then User verify the project name in the logo...............................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Project[]> but was:<Project[ name]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.stepdefinition.Stepdefinition_Demo.user_verify_the_project_name_in_the_logo(Stepdefinition_Demo.java:47)
+	at ✽.Then User verify the project name in the logo(DemoAp.feature:9)
+]]></failure>
+</testcase>
+</testsuite>
