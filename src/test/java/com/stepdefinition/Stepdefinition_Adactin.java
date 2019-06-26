@@ -39,7 +39,7 @@ public class Stepdefinition_Adactin extends Base_Adactin {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			throw new RuntimeException();
-			//hi
+			//bye
 		}
 
 	}
